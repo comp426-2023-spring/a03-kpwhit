@@ -1,0 +1,26 @@
+{
+  "name": "node-rpsls",
+  "version": "1.0.0",
+  "description": "Rock, papaer, lizard, scissors, spock",
+  "main": "./lib/rpsls.js",
+  "bin": {
+    "node-rps": "./bin/rps/rps-cli.js",
+    "node-rpsls": "./bin/rps/rpsls-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a03-kpwhit.git"
+  },
+  "author": "kpwhit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a03-kpwhit/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a03-kpwhit#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
