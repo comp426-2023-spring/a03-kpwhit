@@ -8,7 +8,7 @@ const rules = {
 
 }
 
-function rps(player_shot) {
+export function rpsls(player_shot) {
     let options = Object.keys(rules);
     let outcome;
     const opponent_shot = options[Math.floor(Math.random() * options.length)];
