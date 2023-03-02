@@ -19,5 +19,5 @@ export function rpsls(player_shot) {
     } else {
         outcome = 'lose';
     }
-    console.log(outcome);
+    return outcome;
 }
