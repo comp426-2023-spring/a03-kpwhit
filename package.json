@@ -1,11 +1,11 @@
 {
   "name": "node-rpsls",
   "version": "1.0.0",
-  "description": "Rock, papaer, lizard, scissors, spock",
+  "description": "Rock, paper, lizard, scissors, spock",
   "main": "./lib/rpsls.js",
   "bin": {
-    "node-rps": "./bin/rps/rps-cli.js",
-    "node-rpsls": "./bin/rps/rpsls-cli.js"
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "./bin/rpsls-cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
