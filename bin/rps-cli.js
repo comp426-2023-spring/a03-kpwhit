@@ -27,7 +27,8 @@ async function main() {
         console.log("  - Rock CRUSHES Scissors");
         return 0;
     }
-    console.log(rps(args._[0]));
+
+    console.log(JSON.stringify(rps(args._[0])));
 };
 
 main();

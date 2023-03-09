@@ -33,7 +33,7 @@ async function main() {
         console.log("  - Rock CRUSHES Scissors");
         return 0;
     }
-    console.log(rpsls(args._[0]));
+    console.log(JSON.stringify(rpsls(args._[0])));
 }
 
 main();
