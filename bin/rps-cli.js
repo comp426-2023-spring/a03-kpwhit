@@ -5,7 +5,7 @@ import { rps } from "../lib/rpsls\.js";
 
 async function main() {
     const args = minimist(process.argv.slice(2));
-    if (args.h) {
+    if (args.h | args.help) {
         console.log("Usage: node-rps [SHOT]\n");
         console.log("Play Rock Paper Scissors (RPS)");
         console.log("");
@@ -19,7 +19,7 @@ async function main() {
         console.log(`                  e.g {"player":"rock","opponent":"scissors","result":"win"}`)
         return 0;
     }
-    if (args.r) {
+    if (args.r | args.rules) {
         console.log("Rules for Rock Paper Scissors:");
         console.log("");
         console.log("  - Scissors CUTS Paper");

@@ -4,7 +4,7 @@ import { rpsls } from "../lib/rpsls\.js";
 
 async function main() {
     const args = minimist(process.argv.slice(2));
-    if (args.h) {
+    if (args.h | args.help) {
         console.log("Usage: node-rpsls [SHOT]\n");
         console.log("Play the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!");
         console.log("");
@@ -18,8 +18,8 @@ async function main() {
         console.log(`                    e.g {"player":"rock","opponent":"Spock","result":"lose"}`)
         return 0;
     }
-    if (args.r) {
-        console.log("Rules for the Lizard-Spock Espansion of Rock Paper Scissors:");
+    if (args.r | args.rules) {
+        console.log("Rules for the Lizard-Spock Expansion of Rock Paper Scissors:");
         console.log("");
         console.log("  - Scissors CUTS Paper");
         console.log("  - Paper COVERS Rock");
